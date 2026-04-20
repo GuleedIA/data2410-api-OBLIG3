@@ -127,3 +127,9 @@ public class StudentsController(IConfiguration config) : ControllerBase
         return rows == 0 ? NotFound() : NoContent();
     }
 }
+
+
+
+
+
+
